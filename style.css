@@ -306,3 +306,30 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+/* ...existing styles... */
+
+.popular-ingredients {
+  margin-top: 2rem;
+}
+
+.popular-ingredients-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.ingredient-btn {
+  padding: 0.75rem 1.5rem;
+  background: var(--tenne-tawny);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.4s linear;
+}
+
+.ingredient-btn:hover {
+  background: var(--tenne-tawny-dark);
+}
